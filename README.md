@@ -14,7 +14,7 @@ This command will download the Portainer image from __Docker Hub__ and start it 
 
 ##### Access Portainer:
 
-Once Portainer is up and __running__, you can access its web interface from your web browser by visiting __http://localhost:9000__ ,  Or with __https__ protocol on 9443 port:  __https://localhost:9443/__ (__docker run -d -p 9443:9443 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer-ce__) or (__http://<your_ip_address>:9000 or http://<your_ip_address>:9443__) if you are running Docker on a __remote machine__. 
+Once Portainer is up and __running__, you can access its web interface from your web browser by visiting __http://localhost:9000__ ,  Or with __https__ protocol on port 9443:  __https://localhost:9443/__ (__docker run -d -p 9443:9443 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer-ce__) or (__http://<your_ip_address>:9000 or http://<your_ip_address>:9443__) if you are running Docker on a __remote machine__. 
 
 Next, follow the instructions to set up Portainer, including __creating an admin user and connecting to Docker__.
 
