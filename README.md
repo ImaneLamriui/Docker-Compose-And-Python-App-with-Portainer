@@ -1,4 +1,5 @@
 # DockerComposeAndPython-App
+## Requirements: Flask framework
 ### Using Docker Compose with __Portainer__ allows you to manage your multi-container Docker applications more conveniently, as you can define and manage all your containers in a single configuration file.
 __Portainer__ simplifies the management and deployment of Docker containers, making it particularly useful for teams looking to efficiently utilize Docker without dealing with the complexity of the command line.
 
