@@ -10,13 +10,13 @@ To download and start Portainer:
 
 You can download and start Portainer as a Docker container using the following command:
 ###### docker run -d -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer-ce
-
 This command will download the Portainer image from __Docker Hub__ and start it as a __container named "portainer"__. The -v /var/run/docker.sock:/var/run/docker.sock option allows Portainer to access the Docker socket to manage the containers.
 
 ##### Access Portainer:
 
-Once Portainer is up and __running__, you can access its web interface from your web browser by visiting __http://localhost:9000__ (or __http://<your_ip_address>:9000__ if you are running Docker on a __remote machine__). 
-Follow the instructions to set up Portainer, including __creating an admin user and connecting to Docker__.
+Once Portainer is up and __running__, you can access its web interface from your web browser by visiting __http://localhost:9000__ ,  Or with __https__ protocol on 9443 port:  __https://localhost:9443/__ (__docker run -d -p 9443:9443 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer-ce__) or (__http://<your_ip_address>:9000 or http://<your_ip_address>:9443__) if you are running Docker on a __remote machine__. 
+
+Next, follow the instructions to set up Portainer, including __creating an admin user and connecting to Docker__.
 
 Once you have configured Portainer, you can use its web interface to manage your Docker containers more easily and intuitively, including __creating, modifying, monitoring, and deleting containers, among other functionalities__.
 
