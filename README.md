@@ -1,5 +1,11 @@
 # DockerComposeAndPython-App
 ## Requirements: Flask framework
+__Flask is a framework for Python__, so you need to have Python installed on your system. Flask is compatible with Python 3 and higher versions.
+
+__Installation of Flask__: You need to install Flask in your development environment. You can do this using pip, the Python package manager. You can install Flask by running the following command in the terminal or command prompt:
+
+###### pip install Flask
+
 ### Using Docker Compose with __Portainer__ allows you to manage your multi-container Docker applications more conveniently, as you can define and manage all your containers in a single configuration file.
 __Portainer__ simplifies the management and deployment of Docker containers, making it particularly useful for teams looking to efficiently utilize Docker without dealing with the complexity of the command line.
 
