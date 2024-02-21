@@ -2,6 +2,8 @@
 ### Using Docker Compose with __Portainer__ allows you to manage your multi-container Docker applications more conveniently, as you can define and manage all your containers in a single configuration file.
 __Portainer__ simplifies the management and deployment of Docker containers, making it particularly useful for teams looking to efficiently utilize Docker without dealing with the complexity of the command line.
 
+__https://docs.portainer.io/#documentation__
+
 __Portainer itself is deployed__ as a Docker container, which means you can run it within your existing Docker environment to manage your other containers more conveniently.
 
 To download and start Portainer:
@@ -18,5 +20,5 @@ Follow the instructions to set up Portainer, including __creating an admin user 
 
 Once you have configured Portainer, you can use its web interface to manage your Docker containers more easily and intuitively, including __creating, modifying, monitoring, and deleting containers, among other functionalities__.
 
-
-
+__https://docs.portainer.io/start/agent__
+__https://portal.portainer.io/knowledge/licensing__
