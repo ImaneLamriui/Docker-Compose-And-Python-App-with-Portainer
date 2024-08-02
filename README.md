@@ -26,8 +26,6 @@ Next, follow the instructions to set up Portainer, including __creating an admin
 
 Once you have configured Portainer, you can use its web interface to manage your Docker containers more easily and intuitively, including __creating, modifying, monitoring, and deleting containers, among other functionalities__.
 
-<img src="dockersContainers.png">
-
 __https://docs.portainer.io/start/agent__
 
 __https://portal.portainer.io/knowledge/licensing__
