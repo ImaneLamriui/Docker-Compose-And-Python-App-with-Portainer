@@ -1,4 +1,3 @@
-# DockerComposeAndPython-App
 ## Requirements: Flask framework
 __Flask is a framework for Python__, so you need to have Python installed on your system. Flask is compatible with Python 3 and higher versions.
 
